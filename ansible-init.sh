@@ -12,7 +12,7 @@ mkdir -p $ansiblePath
 cd $ansiblePath
 
 mkdir bin env lib play ssh roles
-touch README.md ansible.cfg requirements.yml ssh/config env/inventory.ini
+touch README.md ansible.cfg requirements.yml ssh/config env/inventory.ini main.yml
 mkdir env/group_vars env/host_vars
 
 echo "Don't forget to : 
