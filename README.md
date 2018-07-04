@@ -10,3 +10,5 @@ $ cd /path/to/my-awesome-project
 ```
 
 And start coding your infrastructure. 
+
+Please note that this is my way to doing this, so don't start yelling at me if you're not ok with it.
