@@ -1,5 +1,5 @@
 # ansible-init
-Simple shell script to init an Ansible directory.
+Simple shell script to init an Ansible project directory.
 
 Just do:
 
