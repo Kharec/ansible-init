@@ -22,9 +22,9 @@ roles_path = roles
 [ssh_connection]
 ssh_args = -F ssh/config -C -o ControlMaster=auto -o ControlPersist=60s" > ansible.cfg
 
-echo "Don't forget to : 
+echo "[+] Generating a ssh key for your project..."
+ssh-keygen -t rsa -N "" -f $ansiblePath/ssh/id_rsa 
 
-- add your keys in ssh/
-- add your servers and groups in env/inventory.ini"
+echo "Ready to go. Don't forget to add your servers and groups in env/inventory.ini"
 
 exit 0
