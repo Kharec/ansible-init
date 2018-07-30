@@ -4,7 +4,7 @@ Simple shell script to init an Ansible project directory.
 Just do:
 
 ```bash
-$ sudo mv ansible-init.sh /usr/local/sbin/ansible-init
+$ sudo mv ansible-init.sh /usr/local/bin/ansible-init
 $ ansible-init /path/to/my-awesome-project
 $ cd /path/to/my-awesome-project
 ```
