@@ -11,7 +11,7 @@ ansiblePath=$1
 mkdir -p $ansiblePath
 cd $ansiblePath
 
-mkdir bin env lib play ssh roles
+mkdir bin env lib play ssh roles tasks
 touch README.md ansible.cfg requirements.yml ssh/config env/inventory.ini main.yml
 mkdir env/group_vars env/host_vars
 
